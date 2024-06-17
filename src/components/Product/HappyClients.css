@@ -1,0 +1,27 @@
+.innerimagehappyclients{
+    background-image:url(https://media.istockphoto.com/id/1457878159/photo/happy-colleagues-having-a-coffee-break-in-an-office.jpg?b=1&s=612x612&w=0&k=20&c=YLEHP1V3m_G8nB2U0XZ2DTfzHmxtzjQ27tHdYhsjpmw=);
+    width:100%;
+    height:500px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.innerimagehappyclients::before{
+    content:"";
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+}
+.newclass{
+    background-color: transparent;
+}
+.parallax-bg{
+    z-index:10;
+    min-height:30vh;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    width:100%;
+}

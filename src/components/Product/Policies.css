@@ -1,0 +1,22 @@
+ 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .policy1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .policyleft {
+    flex: 1;
+  }
+ 
+  .policyright {
+    width:10%;
+    height:3px;
+    background-color: #000; /* Keep it visible at all times */
+  }
+  

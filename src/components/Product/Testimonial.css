@@ -1,0 +1,48 @@
+.happycard {
+    min-height: 600px;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1457878159/photo/happy-colleagues-having-a-coffee-break-in-an-office.jpg?b=1&s=612x612&w=0&k=20&c=YLEHP1V3m_G8nB2U0XZ2DTfzHmxtzjQ27tHdYhsjpmw=);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.happycard::before {
+    content: "";
+    position: absolute;
+    min-height: 600px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.cardheading .happyhead {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+}
+
+.happycardlogo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.happypara span,
+.happyname span {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background:#ed6d1e !important;
+}

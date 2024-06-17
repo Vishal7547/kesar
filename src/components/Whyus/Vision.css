@@ -1,0 +1,29 @@
+.parallax-wrapper {
+    height: 150px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .parallax-image {
+    background-image: url(https://images.pexels.com/photos/3184635/pexels-photo-3184635.jpeg?auto=compress&cs=tinysrgb&w=600); /* Specify the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 200%; /* Adjust the height to create the parallax effect */
+    position: relative;
+    z-index: -1;
+  }
+  
+  .parallax-image::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .commolistmission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:-47%;
+  }

@@ -1,0 +1,86 @@
+.navcnt {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navleft img {
+  height: 40px;
+}
+
+.navright {
+  display: flex;
+  flex-direction: row;
+}
+
+.menues {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: var(--bs-font-sans-serif) !important;
+}
+
+.menu1 {
+  padding: 7px;
+  cursor: pointer;
+}
+
+.menu1:hover {
+  color: #ed6d1e;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-close {
+  position: absolute;
+  top: 20px; /* Adjust top value according to your preference */
+  right: 40px; /* Adjust right value according to your preference */
+  cursor: pointer;
+}
+.modal-close:hover{
+  color: #ed6d1e;
+}
+.modal1-content {
+  position: relative;
+  padding: 20px;
+  border-radius: 5px;
+  font-size:2rem;
+}
+.modal1-content .menu1 {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.modal1-content :hover {
+  color:#ed6d1e; 
+}
+
+
+@media screen and (max-width: 683px) {
+  .menues {
+    display: none; /* Hide the menus for small devices */
+  }
+
+  .navright {
+    justify-content: flex-end; /* Align hamburger menu to the right */
+  }
+
+  .modal1-content {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+}
