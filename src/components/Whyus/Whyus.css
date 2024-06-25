@@ -40,7 +40,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 
 .titlewhy{
     padding:6px;
-    font-size:1.3rem;
+    font-size:1rem;
 }
 /* Add animation keyframes */
 @keyframes bounce {
@@ -73,6 +73,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
    font-weight:400;
    margin:5px;
 }
+
 @media (max-width: 1211px) {
     .newclasswhy {
       flex-direction: column;
@@ -82,9 +83,74 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
       width: 100%;
       margin-bottom: 20px;
     }
+ 
+    
+  }
+  @media (max-width: 1207px) {
+    .newclasswhy {
+      flex-direction: column;
+    }
+    .rightparawhy{
+        text-align: left;
+        margin-right: 16%;
+    }
+  }
+
+  @media (max-width: 847px) {
+    .newclasswhy {
+      flex-direction: column;
+    }
+    .whyusHeading span{
+        font-size: 2.7rem !important;
+    }
   }
 @media (max-width: 768px) {
     .newclasswhy {
       flex-direction: column;
     }
+    .whyusHeading span{
+        font-size: 2.2rem !important;
+    }
+    .kesarimg{
+       height:250px !important;
+       width:180px !important;   
+    }
   }
+
+  @media (max-width: 488px) {
+    .whyusHeading span {
+        font-size: 1.6rem !important;
+    }
+    .parawhy {
+        width: 59% !important;
+        font-size: 0.8rem !important;
+        font-weight: 600 !important;
+    }
+    .titlewhy{
+        font-size: 0.7rem !important;
+    }
+    .paraicon{
+        font-size: 0.8rem !important;  
+    }
+    .ioshield{
+        font-size: 30px !important;
+    }
+   
+ 
+}
+@media (max-width: 319px) {
+    .whyusHeading span {
+        font-size: 1.2rem !important;
+    }
+    .parawhy {
+        width: 53% !important;
+        font-size: 0.8rem !important;
+        font-weight: 300 !important;
+    }
+    .hoverbounce {
+        font-size: 20px !important;
+    }
+    .ioshield{
+        font-size: 25px !important;
+    }
+}

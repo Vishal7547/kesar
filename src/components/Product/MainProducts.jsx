@@ -23,7 +23,7 @@ const MainProducts = () => {
         <div className='container-fluid'>
     <div className="row">
         <div className="col-12 whyuscnt">
-            <h2 className="whyusTitle mt-4 pt-4 pb-2 mt-2">We are mainly produce two types of product</h2>
+            <h2 className="whyusTitle mainprodutitle mt-4 pt-4 pb-2 mt-2">We are mainly produce two types of product</h2>
             <div className="line"></div>
             <h3 className='whyush3title mt-3'>Corrugated Box</h3>
             <h3 className='whyush3title mb-3'>Corrugated Sheet Board</h3>

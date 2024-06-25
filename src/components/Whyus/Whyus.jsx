@@ -101,6 +101,7 @@ const Whyus = () => {
 
                   <div className="col-md-3">
                     <img
+                      className="kesarimg "
                       src="https://kesarcraft.com/images/device.jpg"
                       alt="kesarmobileapp"
                     />

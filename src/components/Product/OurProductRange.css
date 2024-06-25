@@ -5,6 +5,7 @@
         margin-top: 23px;
         margin-bottom: 26px;
 }
+
 .container-fluid {
         width: 100%;
       }
@@ -19,3 +20,66 @@
         height: 100%;
         object-fit: cover; /* Ensures the image covers the entire slide */
       }
+      @media (max-width: 1118px) {
+        
+        .h6, h6 {
+          font-size: 1rem;
+          margin-left: 44% !important;
+          margin-top: 23px;
+          margin-bottom: 26px;
+      }
+      }
+      @media (max-width: 1080px) {
+        
+        .h6, h6 {
+          font-size: 1rem;
+          margin-left: 43% !important;
+          margin-top: 23px;
+          margin-bottom: 26px;
+      }
+      }
+      @media (max-width: 954px) {
+        
+        .h6, h6 {
+          font-size: 1rem;
+          margin-left: 42% !important;
+          margin-top: 23px;
+          margin-bottom: 26px;
+      }
+      }
+      @media (max-width: 806px) {
+        
+        .h6, h6 {
+          font-size: 1rem;
+          margin-left: 41% !important;
+          margin-top: 23px;
+          margin-bottom: 26px;
+      }
+      }
+      @media (max-width: 707px) {
+        
+        .h6, h6 {
+          font-size: 0.8rem !important;
+          margin-left: 39% !important;
+         
+      }
+      }
+      @media (max-width: 471px) {
+        .h6, h6 {
+            font-size: 0.8rem !important;
+            margin-left: 37% !important;
+        }
+    }
+    @media (max-width: 415px) {
+      .h6, h6 {
+          font-size: 0.8rem !important;
+          margin-left: 34% !important;
+      }
+  }
+  
+  @media (max-width: 332px) {
+    .h6, h6 {
+        font-size: 0.8rem !important;
+        margin-left: 30% !important;
+    }
+}

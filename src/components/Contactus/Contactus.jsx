@@ -25,15 +25,15 @@ const Contactus = () => {
                 <input type="tel" id="phone" name="phone" placeholder="Phone Number" className='w-100' required />
               </div>
               </div>
-              <div className="form-group">
+              <div className="form-group formtextarea">
                 <label htmlFor="message">Message:</label>
                 <textarea id="message" name="message" rows="8" placeholder="Your Message" required></textarea>
               </div>
-              <div className="form-group">
+              <div className="form-group formgroupwhat">
                 <label htmlFor="captcha">What's 5 + 16 = ?</label>
                 <input type="number" id="captcha" name="captcha" placeholder="Your Answer" style={{ width: '10%' }} className='w-25' required />
               </div>
-              <div className="form-group">
+              <div className="form-group formbutton">
                 <button type="submit" style={{ backgroundColor: '#ED6D1E' }}>Submit</button>
               </div>
             </form>

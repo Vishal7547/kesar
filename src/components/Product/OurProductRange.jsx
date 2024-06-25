@@ -22,7 +22,7 @@ const OurProductRange = () => {
     <div className="row">
         <div className="col-12">
          
-          <h6>Our Product Range</h6>
+          <h6 className="productitle">Our Product Range</h6>
        
     
             

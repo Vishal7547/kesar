@@ -13,3 +13,16 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 404px) {
+  .certis{
+    display: flex;
+    flex-direction: column;
+  }
+ .certi1 img{
+   height:300px !important;
+ }
+ .certi2 img{
+  height:300px !important;
+ }
+}

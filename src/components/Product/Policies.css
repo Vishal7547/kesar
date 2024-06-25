@@ -19,4 +19,9 @@
     height:3px;
     background-color: #000; /* Keep it visible at all times */
   }
-  
+  @media (max-width: 556px) {
+    .policyright{
+      display: none !important;
+    }
+
+  }

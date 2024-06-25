@@ -48,3 +48,72 @@
   .swiper-button-next:after, .swiper-button-prev:after{
     font-size:0.7rem !important;
   }
+
+@media (max-width: 1371px) {
+  .btngetstarted {
+
+    top: 44% !important;
+    left: 45% !important;
+    }
+}
+@media (max-width: 762px) {
+  .btngetstarted {
+
+    top: 44% !important;
+    left: 41% !important;
+    padding:5px !important;
+    padding-right:20px !important;
+    padding-left: 20px !important;
+    font-size:1rem !important;
+    }
+}
+
+@media (max-width: 701px) {
+  .btngetstarted {
+
+    top: 44% !important;
+    left: 40% !important;
+    }
+}
+@media (max-width: 611px) {
+  .btngetstarted {
+
+    top: 44% !important;
+    left: 39% !important;
+    }
+}
+@media (max-width: 527px) {
+  .btngetstarted {
+      top: 44% !important;
+      left: 36% !important;
+  }
+}
+@media (max-width: 453px) {
+  .btngetstarted {
+      top: 44% !important;
+      left: 34% !important;
+  }
+}
+@media (max-width: 412px) {
+  .btngetstarted {
+      top: 44% !important;
+      left: 33% !important;
+  }
+}
+@media (max-width: 391px) {
+  .btngetstarted {
+      top: 44% !important;
+      left: 38% !important;
+      padding: 5px !important;
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+      font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 348px) {
+  .btngetstarted {
+      top: 44% !important;
+      left: 36% !important;
+  }
+}

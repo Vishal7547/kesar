@@ -13,3 +13,131 @@
     font-size:3.6rem;
     font-weight:300;
 }
+@media (max-width: 1132px) {
+    .whyusTitle{
+ font-size:3rem !important;
+    }
+    .mainprodutitle{
+        font-size:2rem !important;
+    }
+}
+@media (max-width: 1000px) {
+    .whyusTitle{
+ font-size:2.7rem !important;
+    }
+}
+@media (max-width: 837px) {
+    .whyusTitle{
+ font-size:2.4rem !important;
+    }
+}
+@media (max-width: 781px) {
+    .whyusTitle{
+ font-size:2rem !important;
+    }
+    .parawhyus{
+        font-size:1rem !important;    
+    }
+    .whyush3title{
+        font-size:1.3rem !important;  
+    }
+    .paramainproduct{
+        font-size:1rem !important;  
+    }
+}
+@media (max-width: 676px) {
+    .mainprodutitle{
+        font-size:1.8rem !important;
+    }  
+}
+@media (max-width: 529px) {
+    .whyusTitle{
+ font-size:1.4rem !important;
+ font-weight: 400 !important;
+    }
+    .parawhyus{
+        font-size:0.9rem !important;    
+    }
+}
+    @media (max-width: 508px) {
+  .mainprodutitle {
+    font-size:1.2rem !important;
+  }
+
+    }
+
+    @media (max-width: 456px) {
+        .whyush3title {
+            font-size: 1rem !important;
+        }
+        .paramainproduct {
+            font-size: 0.8rem !important;
+        }
+    }
+    @media (max-width: 443px) {
+     
+            .mainprodutitle {
+                font-size: 1rem !important;
+            }
+   
+    }
+    @media (max-width: 384px) {
+        .mainprodutitle {
+            font-size: 0.9rem !important;
+            font-weight:400 !important;
+        }  
+        .whyush3title {
+            font-size: 0.8rem !important;
+            font-weight:400 !important;
+        }
+    }
+    @media (max-width: 351px) {
+        .mainprodutitle {
+            font-size: 0.8rem !important;
+            font-weight:500 !important;
+        }
+        .whyush3title {
+            font-size: 0.7rem !important;
+            font-weight:500 !important;
+        }
+    }
+    @media (max-width: 339px) {
+        .mainprodutitle{
+            font-size: 0.8rem !important;
+            font-weight:500 !important;
+        }
+        .whyush3title {
+            font-size: 0.7rem !important;
+            font-weight:600 !important;
+        }
+    }
+    @media (max-width: 335px) {
+        .mainprodutitle {
+            font-size: 0.6rem !important;
+            font-weight:500 !important;
+        }
+        .whyush3title {
+            font-size: 0.7rem !important;
+            font-weight:600 !important;
+        }
+    }
+    /* @media (max-width: 334px) {
+        .mainprodutitle {
+            font-size: 0.6rem !important;
+            font-weight: 500 !important;
+        }
+        .whyush3title {
+            font-size: 0.7rem !important;
+            font-weight:600 !important;
+        }
+    }
+    @media (max-width: 325px) {
+        .paramainproduct {
+            font-size: 0.2rem !important;
+            font-weight: 800!important;
+        }
+        .whyush3title {
+            font-size: 0.7rem !important;
+            font-weight:700 !important;
+        }
+    } */
